@@ -21,6 +21,20 @@
 
 	</head>
 	<body>
-		hello yall
+		<header>
+
+		</header>
+		<section>
+
+		</section>
+		<section>
+
+		</section>
+		<section>
+
+		</section>
+		<section>
+
+		</section>
 	</body>
 </html>
