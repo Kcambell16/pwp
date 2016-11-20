@@ -21,6 +21,7 @@
 
 	</head>
 	<body>
+
 		<header>
 			<nav class="navbar navbar-default">
 				<div class="container-fluid">
@@ -47,18 +48,27 @@
 				</div><!-- /.container-fluid -->
 			</nav>
 		</header>
-		<section>
+
+		<div class="container-fluid">
+
+			<div class="row">
+				<div class="col-md-8">
+					<img src="documentation/img/kcampbell.jpg"
+				</div>
+				<div class="col-md-4">
+					Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
+
+					Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!
+				</div>
+			</div>
 
 
-		</section>
-		<section>
 
-		</section>
-		<section>
 
-		</section>
-		<section>
 
-		</section>
+		</div>
+
+
+
 	</body>
 </html>
