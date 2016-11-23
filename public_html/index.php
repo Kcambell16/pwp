@@ -47,7 +47,20 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">Brand</a>
+						<a class="navbar-brand" href="#">Oyin Developing</a>
+					</div>
+					<div class="collpase navbar-collapse" id="example">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="">Web Developer Extraordinare</a></li>
+							<li class="active"><a href="">Resume</a></li>
+							<li class="active"><a href="">Contact Me</a></li>
+						</ul>
+						<form action="" class="navbar-form navbar-right" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="search here">
+							</div>
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</form>
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -62,12 +75,12 @@
 				</div><!-- /.container-fluid -->
 			</nav>
 		</header>
-
+<!--
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-4">
 					<!--<img class="img-circle" src="documentation/img/kcampbell.jpg" class="img-responsive" alt="kcampbell"  height="350" width="350">-->
-
+<!--
 				</div>
 				<div class="col-md-">
 					Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
@@ -106,7 +119,7 @@
 					</div>
 				</div>
 			</section -->
-
+<!--
 			<section>
 				<div class="row">
 				<div class="col-md-6">

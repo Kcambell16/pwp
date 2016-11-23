@@ -1,5 +1,5 @@
 
-#box-wrapper{
+body {
 	background-image: url(../documentation/img/TestPic.jpg);
 	background-size: cover;
 	background-attachment: fixed;
