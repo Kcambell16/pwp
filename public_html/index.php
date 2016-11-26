@@ -24,12 +24,15 @@
 	<body>
 		<!-- This is a test for background image -->
 
-		<div class="jumbotron" id="box-wrapper">
-			<div class="container">
+		<div class id="box-wrapper">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-4"></div>
-					<div class="col-md-4"></div>
-					<div class="col-md-4"></div>
+					<div class="col-md-6" id="block" display="block">
+						<h2>Kelly D. Campbell</h2>
+						<h1> Web Developer</h1>
+						<h3> Has an Eye for Beautiful Things </h3>
+					</div>
+					<div class="col-md-6"></div>
 				</div>
 			</div>
 		</div>
