@@ -16,12 +16,16 @@ body {
 	display: block;
 	box-sizing: border-box;
 	text-align: center;
-	color: black;
+	color: white;
 	font-family: Damascus, Helvetica, Arial;
 	font-size: 14px;
 }
 
+#boxhead{
+	text-align: center;
+	background-color: white;
 
+}
 
 /*.img-circle{
 	border-radius: 50%;

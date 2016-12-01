@@ -4,21 +4,35 @@
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
 		<!-- Bootstrap Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+
 		<!-- Link php/css file -->
-<!--		<link rel="stylesheet" href="css/stylesheet.css" media="style">-->
+		<!--		<link rel="stylesheet" href="css/stylesheet.css" media="style">-->
 		<link type="text/css" href="css/stylesheet.css" rel="stylesheet">
 		<!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
+
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+
+		<!-- customer jquery validate-->
+		<script src="js/jquery.validate.js" type="text/javascript"></script>
+
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- this is google recaptcha--->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 	</head>
 	<body>
@@ -27,12 +41,15 @@
 		<div class id="box-wrapper">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-6" id="block" display="block">
+					<div class="col-xs-12">
+					</div>
+					<div class="col-xs-6">
+					</div>
+					<div class="col-xs-6" id="boxhead">
 						<h2>Kelly D. Campbell</h2>
 						<h1> Web Developer</h1>
 						<h3> Has an Eye for Beautiful Things </h3>
 					</div>
-					<div class="col-md-6"></div>
 				</div>
 			</div>
 		</div>
@@ -71,75 +88,75 @@
 						<ul class="nav navbar-nav">
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-								</ul>
-							</li>
+						</ul>
+						</li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
 			</nav>
 		</header>
-<!--
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-4">
-					<!--<img class="img-circle" src="documentation/img/kcampbell.jpg" class="img-responsive" alt="kcampbell"  height="350" width="350">-->
-<!--
-				</div>
-				<div class="col-md-">
-					Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
+		<!--
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-4">
+							<!--<img class="img-circle" src="documentation/img/kcampbell.jpg" class="img-responsive" alt="kcampbell"  height="350" width="350">-->
+		<!--
+						</div>
+						<div class="col-md-">
+							Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
 
-					Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!
-				</div>
-			</div>
-
-
-			<section>
-				<h2> Work Title</h2>
-			<div class="row">
-				<div class="col-md-12">
-					Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
-				</div>
-			</div>
-			</section>
-
-			<section>
-				<h2>Resume Title</h2>
-				<div class="row">
-					<div class="col-md-6">
-						Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
+							Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!
+						</div>
 					</div>
-					<div class="col-md-6">
-						Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
+
+
+					<section>
+						<h2> Work Title</h2>
+					<div class="row">
+						<div class="col-md-12">
+							Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
+						</div>
 					</div>
+					</section>
+
+					<section>
+						<h2>Resume Title</h2>
+						<div class="row">
+							<div class="col-md-6">
+								Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
+							</div>
+							<div class="col-md-6">
+								Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
+							</div>
+						</div>
+					</section>
+
+					<!--section>
+						<h2> Contact</h2>
+						<div class="row">
+							<div class="col-md-6">
+								Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
+							</div>
+						</div>
+					</section -->
+		<!--
+					<section>
+						<div class="row">
+						<div class="col-md-6">
+							<h3>Contact</h3>
+						</div>
+							<div class="col-md-6">
+								<h3> MISC..</h3>
+							</div>
+						</div>
+					</section>
+
+
+
+
 				</div>
-			</section>
-
-			<!--section>
-				<h2> Contact</h2>
-				<div class="row">
-					<div class="col-md-6">
-						Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
-					</div>
-				</div>
-			</section -->
-<!--
-			<section>
-				<div class="row">
-				<div class="col-md-6">
-					<h3>Contact</h3>
-				</div>
-					<div class="col-md-6">
-						<h3> MISC..</h3>
-					</div>
-				</div>
-			</section>
 
 
 
-
-		</div>
-
-
-
-	</body>
-</html>
+			</body>
+		</html>
