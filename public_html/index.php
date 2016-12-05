@@ -36,26 +36,6 @@
 
 	</head>
 	<body>
-		<!-- This is a test for background image
-
-		<div class id="box-wrapper">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-xs-12">
-					</div>
-					<div class="col-xs-6">
-					</div>
-					<div class="col-xs-6" id="boxhead">
-						<h2>Kelly D. Campbell</h2>
-						<h1> Web Developer</h1>
-						<h3> Has an Eye for Beautiful Things </h3>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!-- End of Background image test -->
-
 		<!-- Placing nav bar in container -->
 		<header class="navbar-inverse" role="banner">
 			<div class="container">
@@ -68,7 +48,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">Oyin Developing</a>
+						<a class="navbar-brand" href="#images/Kcampbell-website-logo.indd">Oyin Developing</a>
 					</div>
 					<div class="collpase navbar-collapse" id="example">
 						<ul class="nav navbar-nav">
@@ -78,7 +58,7 @@
 						</ul>
 						<form action="" class="navbar-form navbar-right" role="search">
 							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Seek and you will find">
+								<input type="text" class="form-control" placeholder="Seek">
 							</div>
 							<button type="submit" class="btn btn-danger">Submit</button>
 						</form>
@@ -92,21 +72,25 @@
 			</nav>
 			</div><!-- /.container-fluid-->
 		</header>
+
 		</body>
+
 			<div class="container">
-				<div class="jumbotron" id="jumbotron">
-					<p class="bg-black">Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop</p>
+				<div class="jumbotron" id="jumbotron" class="bg-primary">
+					<p> Website Name Logo goes here
+					</p>
 				</div>
 				</div>
 
 				<div class="container">
-						<div class="jumbotron" class="col-sm-6">
+						<div class="jumbotron" class="col-sm-6" class="bk-primary">
 							Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly
 						</div>
 				</div>
 
 	<!-- silder --->
 		<div class="container">
+			<h1>Project</h1>
 			<div class="row">
 				<div class="col-sm-12">
 
@@ -123,13 +107,13 @@
 							<div class="item active">
 								<img src="/images/sample.jpg" alt="sample"/>
 							<div class="carousle-caption">
-								<h1>Websites</h1>
+								<h3>Websites</h3>
 							</div>
 							</div>
 							<div class="item">
 								<img src="images/sample.jpg" alt="sample"/>
 								<div class="carousle-caption">
-									<h1>Cannaduceus</h1>
+									<h3>Cannaduceus</h3>
 							</div>
 						</div>
 							</div>
@@ -146,43 +130,34 @@
 							<span class="sr-only">Previous</span>
 						</a>
 					</div>
+				</div>
+			</div>
+			<!-- end of slider-->
 
+				<div class="container">
+					<div class="well" class="col-sm-6" class="bg-primary">
+						<div>
+							<h1>Resume</h1>
+							<p>Press here to download</p>
+						</div>
+					</div>
+					<div class="well" class="col-sm-6" class="bg-primary">
+						<div>
+							<h1>Resume</h1>
+							<p>Press here to download</p>
+						</div>
+					</div>
 				</div>
 
-		</div>
-				<div class="container">
-						<div class="col-sm-6" class="jumbotron" class="bg-primary">
-		<p>Pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
-		</p>
-	</div>
-	</div>
-
-			<div class="container">
-					<div class="row">
-						<div class="col-md-12" id="boxhead">
-							<h2> Work Title</h2>
-							Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
-						</div>
-					</div>
-					</div>
 
 					<section>
-						<div class="row">
+						<div class="container">
 							<div class="col-md-6" id="boxhead">
-								<h2>Resume Title</h2>
+								<h4>Resume Title</h4>
 								Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
 							</div>
 							<div class="col-md-6" id="boxhead">
-								Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
-							</div>
-						</div>
-					</section>
-
-					<!-- -->
-
-					<section>
-						<h2> Contact</h2>
-						<div class="row">
+							<h4>Contact</h4>
 							<!-- insert contact form -->
 							<form id="contact-form" method="POST" action="php/mailer.php" novalidate>
 								<div class="col-xs-6" id="boxhead">
@@ -231,7 +206,6 @@
 									<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
 								</div>
 							</form>
-
 							<!--messages output area error/success output-->
 							<div class="row">
 								<div class="col-xs-12">
@@ -240,7 +214,10 @@
 							</div>
 							</form>
 						</div>
-					</section
+						</div>
+					</section>
+
+					<!-- -->
 
 				</div>
 	</body>
