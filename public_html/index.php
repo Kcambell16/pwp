@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -55,12 +55,12 @@
 		</div>
 
 		<!-- End of Background image test -->
-
-		<header>
-			<nav class="navbar navbar-default navbar-fixed-bottom">
-				<div class="container-fluid">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
+,
+		<header class="navbar-inverse"> <!-- Placing nav bar in container -->
+			<div class="container">
+			<nav role="navigation">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
 							<span class="icon-bar"></span>
@@ -82,86 +82,26 @@
 							<button type="submit" class="btn btn-primary">Submit</button>
 						</form>
 					</div>
-
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav">
-						</ul>
-						<ul class="nav navbar-nav navbar-right">
-						</ul>
-						</li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
+						<ul class="nav navbar-nav"> </ul>
+						<ul class="nav navbar-nav navbar-right"> </ul>
+
+					</div> <!-- /.navbar-collapse-->
 			</nav>
+			</div><!-- /.container-fluid-->
 		</header>
 
-		<!-- insert contact form -->
-		<form id="contact-form" method="POST" action="php/mailer.php" novalidate>
-			<div class="form-group">
-				<label for="name">Name <span class="text-danger">*</span></label>
-				<div class="input-group">
-					<div class="input-group-addon">
-						<i class="fa fa-user" aria-hidden="true"></i>
-					</div>
-					<input type="text" class="form-control" id="name" name="name" placeholder="Name">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="email">Email <span class="text-danger">*</span></label>
-				<div class="input-group">
-					<div class="input-group-addon">
-						<i class="fa fa-envelope" aria-hidden="true"></i>
-					</div>
-					<input type="email" class="form-control" id="email" name="email" placeholder="Email">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="subject">Subject</label>
-				<div class="input-group">
-					<div class="input-group-addon">
-						<i class="fa fa-pencil" aria-hidden="true"></i>
-					</div>
-					<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-				</div>
-			</div>
-			<div class="form-group">
-				<label for="message">Message <span class="text-danger">*</span></label>
-				<div class="input-group">
-					<div class="input-group-addon">
-						<i class="fa fa-comment" aria-hidden="true"></i>
-					</div>
-					<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
-				</div>
-			</div>
-
-			<!-- Google reCAPTCHA -->
-			<div class="g-recaptcha" data-sitekey="6LfElA0UAAAAAIPR2M15qAh5qkWlXGlRdtJw3Ud0
-"></div>
-
-			<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-			<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-		</form>
-
-
-		<!--messages output area error/success output-->
-		<div class="row">
-			<div class="col-xs-12">
-				<div id="output-area"></div>
-			</div>
-			</div>
-		</form>
-
-
+		try testing this
 		</body>
-		<!--
+
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-4">
-							<!--<img class="img-circle" src="documentation/img/kcampbell.jpg" class="img-responsive" alt="kcampbell"  height="350" width="350">-->
-		<!--
+							<img class="img-circle" src="documentation/img/kcampbell.jpg" class="img-responsive" alt="kcampbell"  height="350" width="350">
+
 						</div>
-						<div class="col-md-">
+						<div class="col-md-" id="boxhead">
 							Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
 
 							Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!
@@ -170,52 +110,90 @@
 
 
 					<section>
-						<h2> Work Title</h2>
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-12" id="boxhead">
+							<h2> Work Title</h2>
 							Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
 						</div>
 					</div>
 					</section>
 
 					<section>
-						<h2>Resume Title</h2>
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-6" id="boxhead">
+								<h2>Resume Title</h2>
 								Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6" id="boxhead">
 								Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
 							</div>
 						</div>
 					</section>
 
-					<!--section>
+					<!-- -->
+
+					<section>
 						<h2> Contact</h2>
 						<div class="row">
-							<div class="col-md-6">
-								Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
+							<!-- insert contact form -->
+							<form id="contact-form" method="POST" action="php/mailer.php" novalidate>
+								<div class="col-xs-6" id="boxhead">
+									<div class="form-group">
+										<div class="form"col-xs-6">
+										<label for="name">Name <span class="text-danger">*</span></label>
+										<div class="input-group">
+											<div class="input-group-addon">
+												<i class="fa fa-user" aria-hidden="true"></i>
+											</div>
+											<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="email">Email <span class="text-danger">*</span></label>
+										<div class="input-group">
+											<div class="input-group-addon">
+												<i class="fa fa-envelope" aria-hidden="true"></i>
+											</div>
+											<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="subject">Subject</label>
+										<div class="input-group">
+											<div class="input-group-addon">
+												<i class="fa fa-pencil" aria-hidden="true"></i>
+											</div>
+											<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="message">Message <span class="text-danger">*</span></label>
+										<div class="input-group">
+											<div class="input-group-addon">
+												<i class="fa fa-comment" aria-hidden="true"></i>
+											</div>
+											<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
+										</div>
+									</div>
+
+									<!-- Google reCAPTCHA -->
+									<div class="g-recaptcha" data-sitekey="6LfElA0UAAAAAIPR2M15qAh5qkWlXGlRdtJw3Ud0
+"></div>
+									<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+									<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+								</div>
+							</form>
+
+							<!--messages output area error/success output-->
+							<div class="row">
+								<div class="col-xs-12">
+									<div id="output-area"></div>
+								</div>
 							</div>
+							</form>
 						</div>
-					</section -->
-		<!--
-					<section>
-						<div class="row">
-						<div class="col-md-6">
-							<h3>Contact</h3>
-						</div>
-							<div class="col-md-6">
-								<h3> MISC..</h3>
-							</div>
-						</div>
-					</section>
-
-
-
+					</section
 
 				</div>
-
-
-
-			</body>
+	</body>
 		</html>
