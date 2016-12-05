@@ -9,7 +9,9 @@ body {
 	font-family:'ArvoRegular', Georgia, "Times New Roman", Times, Serif;
 	color: black;
 }
+.carousel { align-content: center;
 
+}
 ul, menu, dir {
 	display: block;
 	list-style-type: disc;

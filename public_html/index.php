@@ -48,7 +48,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#images/Kcampbell-website-logo.indd">Oyin Developing</a>
+						<a class="navbar-brand" href="documentation/img/Kcampbell-website-logo%20copy.png">Oyin Developing</a>
 					</div>
 					<div class="collpase navbar-collapse" id="example">
 						<ul class="nav navbar-nav">
@@ -89,7 +89,7 @@
 				</div>
 
 	<!-- silder --->
-		<div class="container">
+		<div class="container" id="carousel">
 			<h1>Project</h1>
 			<div class="row">
 				<div class="col-sm-12">
@@ -105,13 +105,13 @@
 						<div class="carousel-inner" role="listbox">
 							<!-- each dive will have one slide-->
 							<div class="item active">
-								<img src="/images/sample.jpg" alt="sample"/>
+								<img src="documentation/img/sample.jpg" alt="sample"/>
 							<div class="carousle-caption">
 								<h3>Websites</h3>
 							</div>
 							</div>
 							<div class="item">
-								<img src="images/sample.jpg" alt="sample"/>
+								<img src="documentation/img/sample.jpg" alt="sample"/>
 								<div class="carousle-caption">
 									<h3>Cannaduceus</h3>
 							</div>
