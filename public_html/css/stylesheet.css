@@ -31,7 +31,10 @@ ul, menu, dir {
 	text-align: center;
 	font-size: 16px;
 }
+.jumbotron { background-color: black;
+	color: white;
 
+}
 .block {
 	background-size: contain;
 	background-color: white;
@@ -42,12 +45,6 @@ ul, menu, dir {
 	color: white;
 	font-family: Damascus, Helvetica, Arial;
 	font-size: 14px;
-}
-
-#boxhead{
-	text-align: center;
-	background-color: white;
-
 }
 
 

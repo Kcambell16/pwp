@@ -36,7 +36,7 @@
 
 	</head>
 	<body>
-		<!-- This is a test for background image -->
+		<!-- This is a test for background image
 
 		<div class id="box-wrapper">
 			<div class="container-fluid">
@@ -55,8 +55,9 @@
 		</div>
 
 		<!-- End of Background image test -->
-,
-		<header class="navbar-inverse"> <!-- Placing nav bar in container -->
+
+		<!-- Placing nav bar in container -->
+		<header class="navbar-inverse" role="banner">
 			<div class="container">
 			<nav role="navigation">
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -71,15 +72,15 @@
 					</div>
 					<div class="collpase navbar-collapse" id="example">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="">Web Developer Extraordinare</a></li>
+							<li class="active"><a href="">Websites</a></li>
 							<li class="active"><a href="">Resume</a></li>
 							<li class="active"><a href="">Contact Me</a></li>
 						</ul>
 						<form action="" class="navbar-form navbar-right" role="search">
 							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Explore">
+								<input type="text" class="form-control" placeholder="Seek and you will find">
 							</div>
-							<button type="submit" class="btn btn-primary">Submit</button>
+							<button type="submit" class="btn btn-danger">Submit</button>
 						</form>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -91,32 +92,79 @@
 			</nav>
 			</div><!-- /.container-fluid-->
 		</header>
-
-		try testing this
 		</body>
+			<div class="container">
+				<div class="jumbotron" id="jumbotron">
+					<p class="bg-black">Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop</p>
+				</div>
+				</div>
 
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-4">
-							<img class="img-circle" src="documentation/img/kcampbell.jpg" class="img-responsive" alt="kcampbell"  height="350" width="350">
-
+				<div class="container">
+						<div class="jumbotron" class="col-sm-6">
+							Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly
 						</div>
-						<div class="col-md-" id="boxhead">
-							Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
+				</div>
 
-							Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!
+	<!-- silder --->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+
+					<div id="silder" class="carousel slide" data-ride="carousel">
+						<!-- indicators  dot nav-->
+						<ol class="carousel-indicators">
+							<li data-target="#silder" data-slide-to="0" class="active"></li>
+							<li data-target="#silder" data-slide-to="1"></li>
+						</ol>
+
+						<!-- wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<!-- each dive will have one slide-->
+							<div class="item active">
+								<img src="/images/sample.jpg" alt="sample"/>
+							<div class="carousle-caption">
+								<h1>Websites</h1>
+							</div>
+							</div>
+							<div class="item">
+								<img src="images/sample.jpg" alt="sample"/>
+								<div class="carousle-caption">
+									<h1>Cannaduceus</h1>
+							</div>
 						</div>
+							</div>
+
+						<!-- controls or next and prev buttons-->
+						<a class="left" class="carousel-control" href="#silder" role="button" data-slide="prev">
+							<span class="glyphicon glyphyicon-chevron-left" aria-hidden="true">
+							</span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right" class="carousel-control" href="#silder" role="button" data-slide="prev">
+							<span class="glyphicon glyphyicon-chevron-right" aria-hidden="true">
+							</span>
+							<span class="sr-only">Previous</span>
+						</a>
 					</div>
 
+				</div>
 
-					<section>
+		</div>
+				<div class="container">
+						<div class="col-sm-6" class="jumbotron" class="bg-primary">
+		<p>Pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
+		</p>
+	</div>
+	</div>
+
+			<div class="container">
 					<div class="row">
 						<div class="col-md-12" id="boxhead">
 							<h2> Work Title</h2>
 							Spicy jalapeno bacon ipsum dolor amet beef chicken drumstick meatball alcatra, andouille shankle ribeye biltong. Chicken capicola pork loin ham pork chop bacon short loin ground round jowl porchetta corned beef landjaeger hamburger shoulder pig. Kevin turkey pork belly pork chop pastrami capicola jerky strip steak swine corned beef bresaola shank shoulder chuck. Leberkas kielbasa tongue, venison strip steak turkey ribeye meatball tri-tip frankfurter pork belly short ribs fatback jowl pastrami. Kevin biltong shoulder spare ribs flank pancetta bacon, jowl ball tip sirloin. Venison cupim doner capicola, turkey landjaeger kevin filet mignon shank picanha shankle pork t-bone prosciutto.
 						</div>
 					</div>
-					</section>
+					</div>
 
 					<section>
 						<div class="row">
