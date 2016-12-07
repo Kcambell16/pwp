@@ -111,9 +111,11 @@
 			<section id="about" class="container content-section text-center">
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2">
-						<h2>About Kelly</h2>
-						<p>I am a full stack web developer with a passion for beauty! Front end UI/UX is my focus, however I do enjoy the process of data design and other back end development. My background is fashion design. While pursuing my degree in fashion design I was bit by the Dev bug. As a senior requirement all design majors were required to create an online portfolio displaying our senior collection. We then used dream weaver, at the time I had no idea exactly what I was getting into. I did know however, I liked it and most of all I like combining my love of the arts and technology. Fast forward a few years after completing my degree at The Art Institute of Philadelphia I am happy my journey has lead me down the path of being a full stack developer. <a href="https://Cannaduceus.com/public_html">the
-								Click here</a>.
+						<h2 class="about">About</h2>
+						<p>I am a full stack web developer with a passion for beauty! Front end UI/UX is my focus, however I do enjoy the process of data design and other back end development aspects. My background is fashion design. While pursuing my degree in fashion design I was bit by the Dev bug. As a senior requirement all design majors were required to create an online portfolio displaying our senior collection. We then used dream weaver, at the time I had no idea exactly what I was getting into. I did know however, I liked it and most of all I like combining my love of the arts and technology. Fast forward a few years after completing my degree at The Art Institute of Philadelphia I am happy my journey has lead me down the path of being a full stack developer.</p>
+						<p> Click the link to see websites I have completed <a href="https://Cannaduceus.com/public_html">
+								Click here</a>.</p>
+
 					</div>
 				</div>
 			</section>

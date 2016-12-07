@@ -53,9 +53,10 @@ p {
 }
 @media (min-width: 768px) {
 	p {
-		margin: 0 0 35px;
+		margin: 0 0 100px;
 		font-size: 20px;
 		line-height: 1.6;
+		align-content: center;
 	}
 }
 a {
@@ -340,5 +341,9 @@ body {
 .brand-heading {
 	font-family: 'Covered By Your Grace', cursive;
 	font-size: 175px;
+}
+
+.about{
+	color: white;
 }
 
