@@ -18,7 +18,7 @@ body {
 }
 
 .navbar-inverse {
-	background-color: transparent;
+	background-color: #1d9b6c;
 }
 
 
@@ -138,6 +138,11 @@ a:focus {
 		border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 	}
 }
+
+h1.brand-heading {
+	margin-top: 250px;
+}
+
 .intro {
 	display: table;
 	width: 100%;
@@ -145,8 +150,8 @@ a:focus {
 	padding: 100px 0;
 	text-align: center;
 	color: white;
-	background: url(../image/Kcampbell-website-logo.png) no-repeat bottom center scroll;
-	background-color: black;
+	/*background: url(../image/PhotoshopPicturePractice.jpg) no-repeat bottom center scroll;*/
+	background-color: transparent;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
