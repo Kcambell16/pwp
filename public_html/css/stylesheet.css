@@ -1,53 +1,21 @@
 
 body {
-	background-image: url(../documentation/img/abstract-glare-visual-art.jpg);
+	background-image: url("../image/PhotoshopPicturePractice.jpg");
 	background-size: cover;
-	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
-	min-height: 940px;
-	font-family:'ArvoRegular', Georgia, "Times New Roman", Times, Serif;
-	color: black;
-}
-.carousel { align-content: center;
-
-}
-ul, menu, dir {
-	display: block;
-	list-style-type: disc;
-	-webkit-margin-before: 1em;
-	-webkit-margin-after: 1em;
-	-webkit-margin-start: 0px;
-	-webkit-margin-end: 0px;
-	-webkit-padding-start: 40px;
+	font-family:'Kaushan Script', cursive;
+	font-color: white;
 }
 
-.nav {
-	eight: 212px;
-	width: 1154px;
-	position: fixed;
-	z-index: 50;
-	top: 80px;
-	padding: 70px 0 0px 15px;
+
+.title {
 	text-align: center;
-	font-size: 16px;
-}
-.jumbotron { background-color: black;
-	color: white;
-
-}
-.block {
-	background-size: contain;
-	background-color: white;
-	position: absolute;
-	display: block;
-	box-sizing: border-box;
-	text-align: center;
-	color: white;
-	font-family: Damascus, Helvetica, Arial;
-	font-size: 14px;
 }
 
+.navbar-inverse {
+	background-color: transparent;
+}
 
 /*.img-circle{
 	border-radius: 50%;
