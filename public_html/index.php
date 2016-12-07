@@ -98,8 +98,7 @@
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2">
 								<h1 class="brand-heading">Kelly Campbell</h1>
-								<p class="intro-text">Welcome to my journey as a  Full Stack Web Developer</p>
-								<a href="#about" class="btn btn-circle page-scroll">
+								<p class="intro-text">Full Stack Web Developer</p>
 									<i class="fa fa-angle-double-down animated"></i>
 								</a>
 							</div>
@@ -207,8 +206,8 @@
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2">
 						<h2>Contact me</h2>
-						<p>Feel free to contact me via email and also follow me on social media.</p>
-						<p><a data-toggle="modal" data-target="#contact-form-modal">Send me a message</a></a>
+						<p> For employment and contracting interest contact me via email.</p>
+						<p><a data-toggle="modal" data-target="#contact-form-modal">Send a message</a></a>
 						</p>
 						<ul class="list-inline banner-social-buttons">
 							<li>
